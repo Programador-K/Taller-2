@@ -1,0 +1,24 @@
+NOMBRE DE LA BASE DE DATOS: usuario
+
+POST - http://localhost/usuarios-api/index.php?controller=user&action=insert
+GET - http://localhost/usuarios-api/index.php?controller=user&action=list
+DELETE - http://localhost/usuarios-api/index.php?controller=user&action=delete&id=39
+GET - http://localhost/usuarios-api/index.php?controller=user&action=get&id=38
+PUT - http://localhost/usuarios-api/index.php?controller=user&action=update&id=38
+
+
+CUERPO DE SOLICITUDES POST Y PUT
+
+{
+    "ciudad_id": 2,
+    "persona_tipo_id": 4,
+    "sexo_id": 2,
+    "identificacion": 1000,
+    "nombres": "juan juan",
+    "apellidos": "hernandez hernandez",
+    "email": "juan2@gmail.com",
+    "fecha_nacimiento": "1990-01-20",
+    "hora_registro": "20:30:00",
+    "tiempo_evento": "2023-10-01 14:35:00",
+    "observaciones": "no hay"
+}
